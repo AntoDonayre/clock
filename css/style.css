@@ -35,3 +35,27 @@ body{
     font-size: 4em;
     padding: 1%;
 }
+@media (max-width: 1240px){
+    .reloj p{
+        font-size: 5em;
+    }
+    .fecha p{
+        font-size: 2em;
+    }
+}
+@media (max-width: 650px){
+    .reloj p{
+        font-size: 3em;
+    }
+    .fecha p{
+        font-size: 1.1em;
+    }
+}
+@media (max-width: 400px){
+    .reloj p{
+        font-size: 2em;
+    }
+    .fecha p{
+        font-size: .8em;
+    }
+}
